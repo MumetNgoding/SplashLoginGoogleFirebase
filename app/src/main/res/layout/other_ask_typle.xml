@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OTHER ASK TYPE"
+            android:textStyle="bold"
+            android:textColor="#0000FF"
+            android:textAlignment="center"
+            android:layout_marginTop="20sp"
+            android:textSize="25sp"/>
+
+    <ImageButton
+            android:id="@+id/btnupload2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/upload"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Images"
+            android:textAlignment="center"
+            android:layout_marginTop="2sp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Your Category"
+    />
+
+    <EditText
+            android:id="@+id/setdefaultcharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Default Charge"
+            android:layout_marginTop="5dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Location"
+            android:textAlignment="center"/>
+
+    <ImageView
+            android:id="@+id/location2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/location"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="170dp"/>
+
+    <EditText
+            android:id="@+id/description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"/>
+
+    <Button
+            android:id="@+id/btnpost2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/positivebutton"
+            android:layout_marginTop="10dp"
+            android:text="POST"
+            android:textSize="30sp"
+            android:textColor="#1E90FF"/>
+
+
+
+
+</LinearLayout>
